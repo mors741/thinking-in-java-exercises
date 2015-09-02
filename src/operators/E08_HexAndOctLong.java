@@ -2,7 +2,7 @@
  * Show that hex and octal notations work with long
  * values. Use Long.toBinaryString() to display
  * the results.
- ***********************************************/ 
+ ***********************************************/
 
 package operators;
 
