@@ -38,7 +38,7 @@ public class E09_AutoBoxingTest {
 		
 		Double D = 1000.9999d;
 		double d = D;
-		System.out.println ("double = " +D);
+		System.out.println ("double = " +d);
 	}
 
 }

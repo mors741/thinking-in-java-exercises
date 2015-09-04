@@ -9,6 +9,7 @@ package c1_everything_is_an_object;
 public class E08_StaticTest {
 	static int i = 47; 
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		E08_StaticTest a = new E08_StaticTest();
 		E08_StaticTest b = new E08_StaticTest();
