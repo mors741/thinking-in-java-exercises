@@ -16,6 +16,7 @@ class StringContainer {
 public class E17_RefArrayInit {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		StringContainer[] ar = new StringContainer[10];
 
 	}
