@@ -2,7 +2,7 @@
  * Write a program that prints values from 1 to 100.
  ************************************************/ 
 
-package c3_controllingexecution;
+package c3_controlling_execution;
 
 public class E01_Hundred {
 

@@ -4,7 +4,7 @@
  * within the range between (and including) begin and end.
  ************************************************/ 
 
-package c3_controllingexecution;
+package c3_controlling_execution;
 
 public class E06_RangeCheck {
 	static boolean test(int testval, int begin, int end) {

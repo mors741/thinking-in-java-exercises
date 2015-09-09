@@ -4,7 +4,7 @@
  * divisible by any other numbers except for themselves and 1).
  ************************************************/ 
 
-package c3_controllingexecution;
+package c3_controlling_execution;
 
 class Container {
 	private int[] ar;

@@ -7,7 +7,7 @@
  * the output will be: 1, 1, 2, 3, 5.
  ************************************************/
 
-package c3_controllingexecution;
+package c3_controlling_execution;
 
 public class E09_Fibonacci {
 

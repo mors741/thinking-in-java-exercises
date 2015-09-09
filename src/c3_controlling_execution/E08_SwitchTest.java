@@ -4,7 +4,7 @@
  * then remove the breaks and see what happens.
  ************************************************/
 
-package c3_controllingexecution;
+package c3_controlling_execution;
 
 public class E08_SwitchTest {
 

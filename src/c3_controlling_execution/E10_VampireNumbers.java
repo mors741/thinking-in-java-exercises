@@ -9,7 +9,7 @@
  * Write a program that finds all the 4-digit vampire numbers. (Suggested by Dan Forhan.)
  ************************************************/
 
-package c3_controllingexecution;
+package c3_controlling_execution;
 
 public class E10_VampireNumbers {
 	private static void checkVampire(int n) {

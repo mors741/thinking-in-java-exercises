@@ -3,7 +3,7 @@
  * and a bitwise test to display the ones and zeroes, instead of Integer.toBinaryString( ).
  ************************************************/ 
 
-package c3_controllingexecution;
+package c3_controlling_execution;
 
 public class E05_BitwiseTest {
 	
