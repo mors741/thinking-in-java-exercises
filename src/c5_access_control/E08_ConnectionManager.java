@@ -10,23 +10,36 @@ package c5_access_control;
 
 public class E08_ConnectionManager {
 	public static final int CAPACITY = 3;
-	private static int count = 0;
-	private static E08_Connection[] pool = new E08_Connection[CAPACITY];
-	static{
+
+	private int count = 0;
+	private E08_Connection[] pool = new E08_Connection[CAPACITY];
+
+	public E08_ConnectionManager() {
 		for (int i = 0; i < CAPACITY; i++) {
 			pool[i] = new E08_Connection();
 		}
 	}
-	public static E08_Connection getConnection() {
+
+	public E08_Connection getConnection() {
 		if (count < CAPACITY) {
 			return pool[count++];
 		} else {
 			return null;
 		}
 	}
+
 	public static void main(String[] args) {
+		E08_ConnectionManager connectionManager = new E08_ConnectionManager();
 		for (int i = 0; i < 5; i++){
-			System.out.println(E08_ConnectionManager.getConnection());
+			System.out.println(connectionManager.getConnection());
 		}
-	}				  	
+	}
+
+	static class E08_Connection {
+
+		private E08_Connection() {
+
+		}
+
+	}
 } 
